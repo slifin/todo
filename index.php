@@ -17,6 +17,7 @@
 	$f3->route('GET /install',function(){
 		\models\Task::setdown();
 		\models\Task::setup();
+		echo 'setup complete';
 	});
 
 
